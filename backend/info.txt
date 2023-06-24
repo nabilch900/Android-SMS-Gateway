@@ -21,12 +21,12 @@ $secret = "b0ecc194-ibnu-ibnu-b12b-bc7e8c60919b";
 $secret = md5($secret.$time);
 
 // USING GET
-echo file_get_contents("https://sms.ibnux.net/?to=".urlencode("+62818123456")."&text=".urlencode("hello world")."&secret=$secret&time=$time&deviceID=".urlencode($deviceID));
+echo file_get_contents("https://sms.24seven.pk/?to=".urlencode("+62818123456")."&text=".urlencode("hello world")."&secret=$secret&time=$time&deviceID=".urlencode($deviceID));
 
 // with POST, you don't need </b>urlencode</b>
 
 ?&gt;
 
 
-Download android apps at <a href="https://github.com/ibnux/Android-SMS-Gateway/releases">github</a>
+Download android apps at <a href="https://github.com/nabilch900/Android-SMS-Gateway/releases">github</a>
 </pre>
