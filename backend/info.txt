@@ -10,7 +10,7 @@ GET or POST
 <b>time</b> : time second used for secret
 
 [PHP EXAMPLE]
-&lt;?php
+<?php
 
 //Set to your time zone in phone
 date_default_timezone_set('Asia/Jakarta');
@@ -25,8 +25,7 @@ echo file_get_contents("https://sms.24seven.pk/?to=".urlencode("+62818123456")."
 
 // with POST, you don't need </b>urlencode</b>
 
-?&g;
-
+?>
 
 Download android apps at <a href="https://github.com/nabilch900/Android-SMS-Gateway/releases">github</a>
 </pre>
