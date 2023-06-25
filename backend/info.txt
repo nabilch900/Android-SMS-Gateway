@@ -25,7 +25,7 @@ echo file_get_contents("https://sms.24seven.pk/?to=".urlencode("+62818123456")."
 
 // with POST, you don't need </b>urlencode</b>
 
-?&gt;
+?&g;
 
 
 Download android apps at <a href="https://github.com/nabilch900/Android-SMS-Gateway/releases">github</a>
