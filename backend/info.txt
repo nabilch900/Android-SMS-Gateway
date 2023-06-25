@@ -10,7 +10,7 @@ GET or POST
 <b>time</b> : time second used for secret
 
 [PHP EXAMPLE]
-&lt;?php
+<?php
 
 //Set to your time zone in phone
 date_default_timezone_set('Asia/Jakarta');
@@ -25,7 +25,7 @@ echo file_get_contents("https://sms.ibnux.net/?to=".urlencode("+62818123456")."&
 
 // with POST, you don't need </b>urlencode</b>
 
-?&gt;
+?>
 
 
 Download android apps at <a href="https://github.com/ibnux/Android-SMS-Gateway/releases">github</a>
